@@ -16,18 +16,20 @@ h1{
     border: 0 solid lightgrey;
     justify-content: space-evenly;
     background-color:darkgray;
-    margin:5px 5px 5px 0;
+    margin:5px 0 5px 5px;
     float: inherit;
     text-align: center;
     display: inline-block;
+    font-size: xx-large;
 }
 .redCard{
     border: 0 solid lightgrey;
     justify-content: space-evenly;
     background-color:darkgray;
     color: red;
-    margin:5px 5px 5px 0;
+    margin:5px 0 5px 5px;
     float: inherit;
     text-align: center;
     display: inline-block;
+    font-size: xx-large;
 }
