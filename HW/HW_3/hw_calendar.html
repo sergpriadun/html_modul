@@ -8,9 +8,10 @@
         .container {
             display: flex;
             width: auto;
-            height: auto;
+            height: 180px;
             background-color: beige;
             padding: 5px;
+            justify-content: space-evenly;
         }
 
         .item {
@@ -19,9 +20,16 @@
             background-color: yellow;
             display: inline-block;
             margin: 5px 10px;
+            border-radius: 5%;
         }
         .info{
             font-size: 10px;
+            line-height: max(0,2);
+        }
+        .item:hover{
+            width: 160px;
+            height: 160px;
+            justify-content: space-evenly;
         }
     </style>
 </head>
@@ -84,7 +92,7 @@
     </div>
 </div>
 
-<div>
+<div class="container">
     <div class="item info">
         <h3>Липень</h3>
         <p>
