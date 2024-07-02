@@ -6,27 +6,41 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-
+    <link rel="stylesheet" href="font_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fjalla+One&family=Indie+Flower&family=Rubik+Pixels&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
     <style>
-        .container{
+        .container {
             background-color: beige;
             display: flex;
             padding: 10px;
             margin: 10px;
+            justify-content: space-evenly;
         }
-        .item{
+
+        .item {
             background-color: greenyellow;
             width: 150px;
             height: 150px;
-            justify-items: center;
-            align-items: center;
+            display: flex;
+            border-radius: 20%;
+        }
+        p{
+            display: flex;
+            text-align: center;
+            margin: auto;
+
         }
     </style>
 </head>
 <body>
 <div class="container">
-    <div class="item">Rubic Pixels</div>
-    <div class="item">Sedgwick Ave Display</div>
+    <div class="item"><p class="rubik-pixels-regular">Pixels</p></div>
+    <div class="item"><p class="sedgwick-ave-display-regular">Sedgwick Ave Display</p></div>
+    <div class="item"><p class="dancing-script-">Dancing Script</p></div>
+    <div class="item"><p class="fjalla-one-regular">Fjalla One</p></div>
+    <div class="item"><p class="indie-flower-regular">Indi Flower</p></div>
 </div>
 
 </body>
